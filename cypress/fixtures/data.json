@@ -1,0 +1,58 @@
+{
+    "validUser": {
+        "username": "mor_2314",
+        "password": "83r5^_"
+    },
+    "invalidUser": {
+        "username": "usuario_invalido_xyz",
+        "password": "senha_errada_123"
+    },
+    "newProduct": {
+        "title": "Produto de Teste Cypress",
+        "price": 49.99,
+        "description": "Produto criado via testes automatizados Cypress",
+        "image": "https://i.pravatar.cc",
+        "category": "electronics"
+    },
+    "updatedProduct": {
+        "title": "Produto Atualizado via PUT",
+        "price": 99.99,
+        "description": "Produto atualizado via testes automatizados",
+        "image": "https://i.pravatar.cc",
+        "category": "electronics"
+    },
+    "newCart": {
+        "userId": 1,
+        "date": "2024-01-01",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 3
+            },
+            {
+                "productId": 5,
+                "quantity": 1
+            }
+        ]
+    },
+    "newUser": {
+        "email": "teste@cypress.com",
+        "username": "cypress_user_test",
+        "password": "Teste@123",
+        "name": {
+            "firstname": "Cypress",
+            "lastname": "Teste"
+        },
+        "address": {
+            "city": "São Paulo",
+            "street": "Rua Teste",
+            "number": 100,
+            "zipcode": "01000-000",
+            "geolocation": {
+                "lat": "-23.5505",
+                "long": "-46.6333"
+            }
+        },
+        "phone": "11-99999-9999"
+    }
+}

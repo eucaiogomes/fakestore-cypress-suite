@@ -1,0 +1,27 @@
+{
+  "name": "fakestoreapi-cypress",
+  "version": "1.0.0",
+  "description": "Suite completa de testes automatizados para a FakeStore API com Cypress + Grok AI",
+  "scripts": {
+    "test": "npx cypress run",
+    "test:full": "npx cypress run && node scripts/generate-report.js",
+    "test:open": "npx cypress open",
+    "test:auth": "npx cypress run --spec cypress/e2e/01-auth.cy.js",
+    "test:products": "npx cypress run --spec cypress/e2e/02-products.cy.js",
+    "test:cart": "npx cypress run --spec cypress/e2e/03-cart.cy.js",
+    "test:users": "npx cypress run --spec cypress/e2e/04-users.cy.js",
+    "report": "node scripts/generate-report.js"
+  },
+  "keywords": [
+    "cypress",
+    "api-testing",
+    "fakestoreapi",
+    "qa",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^15.10.0"
+  }
+}
